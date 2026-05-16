@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+.choice:hover{
+    
+    cursor: pointer;
+    background-color: red;
+}
+
+@media(min-width:1275px){
+ h1{
+    background-color: aqua;
+ }
+ h2{
+    background-color: plum;
+}
+ .choice {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+img{
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+}
+
+.choices{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    margin-top: 7rem;
+}
+
+}
+@media(max-width:450px){
+    h1{
+    background-color: aqua;
+ }
+ h2{
+    background-color: plum;
+}
+ .choice {
+    height: 90px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.choices{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+}
+
+@media (min-width:450px) and  (max-width:800px){
+    h1{
+    background-color: aqua;
+ }
+ h2{
+    background-color: plum;
+}
+ .choice {
+    height: 120px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+img{
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+}
+
+.choices{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    margin-top: 7rem;
+}
+}
+
+@media(min-width:800px) and (max-width:1275px){
+    h1{
+    background-color: aqua;
+ }
+ h2{
+    background-color: plum;
+}
+ .choice {
+    height: 220px;
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+img{
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
+}
+
+.choices{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    margin-top: 7rem;
+}
+}
